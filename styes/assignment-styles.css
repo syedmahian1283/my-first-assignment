@@ -50,3 +50,40 @@
   border: 0;
   margin-right: 350px;
 }
+/* my failures of previous year */
+.previous {
+  display: flex;
+  margin: 130px 150px;
+  gap: 100px;
+  margin-bottom: 130px;
+}
+.previous .previous-person {
+  padding-top: 250px;
+  padding-right: 250px;
+}
+.previous img {
+  width: 569px;
+  height: 723.3px;
+}
+.previous-sub-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+  width: 400px;
+}
+.previous-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+  width: 400px;
+}
+.previous-list {
+  padding: 15px;
+  list-style-type: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin: 8px;
+}
