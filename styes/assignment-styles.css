@@ -61,6 +61,12 @@
   padding-top: 250px;
   padding-right: 250px;
 }
+.previous-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+}
 .previous img {
   width: 569px;
   height: 723.3px;
@@ -86,4 +92,121 @@
   font-size: 16px;
   color: #444343;
   margin: 8px;
+}
+/* plan items */
+.plan-criteria {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+.plan-item {
+  text-align: center;
+}
+.plan-item .plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(24, 218, 159);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.plan-item .plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+/* Gradiant mindset box */
+.gradiant {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 130px;
+  width: 1140px;
+  height: 300px;
+}
+.gradiant .gradiant-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  width: 600px;
+  padding-top: 40px;
+  padding-left: 50px;
+  margin-bottom: 24px;
+}
+.gradiant .btn-primary {
+  margin-left: 50px;
+  width: 160px;
+  height: 64px;
+  text-align: center;
+}
+/* footer part */
+.footer-section {
+  background: #151414;
+  width: 100%;
+  height: 580px;
+}
+.footer-mainpart {
+  display: flex;
+  gap: 20px;
+  padding-top: 130px;
+  margin: 0 150px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.footer-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+  width: 500px;
+}
+.footer-email {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer-number {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.footer-section img {
+  width: 47px;
+  height: 46px;
+}
+.footer-subscribe {
+  padding-left: 200px;
+  width: 400px;
+}
+.footer-subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+.footer-subscribe input {
+  font-weight: 400;
+  font-size: 18px;
+  background: none;
+  border-radius: 5px;
+  color: #f3f3f3;
+  border-color: aliceblue;
+  margin-bottom: 16px;
+}
+.footer-subscribe .btn-primary{
+    background:  #005FAC;
+    width: 170.11px;
+height: 64px;
+color: #FFFFFF;
+text-align: center;
 }
